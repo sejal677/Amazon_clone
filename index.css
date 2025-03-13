@@ -244,3 +244,17 @@ height: 80px;
     text-align: center;
     margin: 5px;
 }
+ @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-search {
+                width: 80%;
+                margin-top: 10px;
+            }
+            .box {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
